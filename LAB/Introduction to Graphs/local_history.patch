@@ -1,0 +1,14 @@
+Index: topological_sorting.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/topological_sorting.py b/topological_sorting.py
+--- a/topological_sorting.py	
++++ b/topological_sorting.py	(date 1689968845244)
+@@ -50,4 +50,4 @@
+ if has_cycles:
+     print("Invalid topological sorting")
+ else:
+-    print(f"Topological sorting: {sortedKey1}, {sortedKey2}, …{sortedKeyN")
++    print(f"Topological sorting: {', '.join(sorted_nodes)}")
